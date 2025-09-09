@@ -14,7 +14,7 @@ Este repositório contém as respostas do desafio de backend da Valcann, organiz
 - **questao-2/**  
   Contém a resposta da Questão 2.  
   - `resposta.md` → Resposta detalhada da Questão 2 (explicações + como executar).
-  - `backup_automation.py` → Script de automação da Questão 2
+  - `backup_automation.py` → Script de automação (comentado) da Questão 2
 
 - **questao-3/**  
   Contém a resposta da Questão 3.  
