@@ -1,22 +1,35 @@
-# DESAFIO VALCANN - BACKEND
+# Desafio Valcann - Backend
 
-## QUESTÃO 1: Motivos de adotar os índices que foram definidos
+Este repositório contém as respostas do desafio de backend da Valcann, organizadas por questão.
 
-- **PRIMARY**  
-  - Criado automaticamente ao gerar as tabelas.  
+---
 
-- **Foreign Keys**  
-  - Seguem boas práticas ao permitir mais velocidade em *joins*, especialmente em `EstadoControle`, que é basicamente de onde sai o histórico.  
+## Estrutura do repositório
 
-- **`name` em Benchmark e Controle**  
-  - Útil se for comum buscar Benchmark e Controle pelo nome.  
+- **questao-1/**  
+  Contém a resposta da Questão 1, incluindo imagens explicativas.  
+  - `resposta.md` → Resposta detalhada da Questão 1.  
+  - `imagem1.png`, `imagem2.png`, … → Imagens utilizadas na resposta.  
 
-- **`(controleIdFk, dataHora)` em EstadoControle**  
-  - Este é o índice mais importante.  
-  - A tabela `EstadoControle` provavelmente vai crescer muito rápido, porque a cada mudança de estado de um controle, é inserida uma nova linha.  
-  - Por isso, consultas relacionadas ao **estado atual** e ao **histórico** precisam ser eficientes, tanto pela frequência de uso quanto pela relevância do histórico.  
-  - Este índice é fundamental porque:  
-    - Permite localizar rapidamente o **estado atual** de um controle (último registro por data/hora).  
-    - Otimiza buscas por **intervalos de tempo**.  
-    - Facilita a recuperação do **estado em uma data/hora específica**.  
-  - **Em resumo:** atende diretamente
+- **questao-2/**  
+  Contém a resposta da Questão 2.  
+  - `resposta.md` → Resposta detalhada da Questão 2.  
+
+- **questao-3/**  
+  Contém a resposta da Questão 3.  
+  - `resposta.md` → Resposta detalhada da Questão 3.  
+
+---
+
+## Como visualizar o conteúdo
+
+1. Abra a pasta da questão que deseja consultar.  
+2. Abra o arquivo `resposta.md` no GitHub ou em qualquer editor Markdown.  
+3. Para Questão 1, as imagens estão dentro da mesma pasta e são referenciadas no arquivo `resposta.md`.
+
+---
+
+## Observações
+
+- Cada pasta foi criada para organizar o conteúdo solicitado no desafio de forma clara e independente.  
+- Certifique-se de manter os nomes das pastas e arquivos como estão para que os links das imagens funcionem corretamente no Markdown.
