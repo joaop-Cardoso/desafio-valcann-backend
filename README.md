@@ -7,13 +7,13 @@ Este repositório contém as respostas do desafio de backend da Valcann, organiz
 ## Estrutura do repositório
 
 - **questao-1/**  
-  Contém a resposta da Questão 1, incluindo imagens explicativas.  
+  Contém a resposta da Questão 1, incluindo a imagem explicativa.  
   - `resposta.md` → Resposta detalhada da Questão 1.  
   - `MER.png` → Imagem do MER requerido pela Questão 1.  
 
 - **questao-2/**  
   Contém a resposta da Questão 2.  
-  - `resposta.md` → Resposta detalhada da Questão 2 (como executar o script + explicações).
+  - `resposta.md` → Resposta detalhada da Questão 2 (explicações + como executar).
   - `backup_automation.py` → Script de automação da Questão 2
 
 - **questao-3/**  
