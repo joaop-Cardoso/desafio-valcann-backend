@@ -19,7 +19,7 @@ Este repositório contém as respostas do desafio de backend da Valcann, organiz
 - **questao-3/**  
   Contém a resposta da Questão 3.  
   - `resposta.md` → Resposta detalhada da Questão 3.
-  - `MER.png` → Imagem do diagrama de arquitetura requerido pela Questão 3. 
+  - `diagrama.png` → Imagem do diagrama de arquitetura requerido pela Questão 3. 
 
 ---
 
