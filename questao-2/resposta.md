@@ -10,7 +10,8 @@ Aqui veremos o que o script faz e como executá-lo.
 
 1. **Lista** todos os arquivos dentro da pasta `backupsFrom/`, incluindo:
    - Nome do arquivo  
-   - Tamanho (bytes)  
+   - Tamanho (bytes)
+   - Data de criação 
    - Data da última modificação  
 
 2. **Salva o resultado** em `backupsFrom.log`.
